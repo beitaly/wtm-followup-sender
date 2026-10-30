@@ -1,0 +1,13 @@
+{
+  "name": "wtm-followup-sender",
+  "version": "1.0.0",
+  "description": "WTM 2026 automated follow-up email sender",
+  "main": "sender.js",
+  "scripts": {
+    "start": "node sender.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "node-cron": "^3.0.3"
+  }
+}
